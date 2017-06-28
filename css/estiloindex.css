@@ -71,9 +71,11 @@ img {
   }
   #paisajes:hover {
     transform: rotate(10deg);
+    box-shadow: 2px #82c3a6;
   }
   #retratos:hover {
     transform: translate(20px,-5px);
+    box-shadow: 2px #82c3a6;
   }
   footer {
     text-align: center;
@@ -164,9 +166,11 @@ img {
   }
   #paisajes:hover {
     transform: rotate(10deg);
+    box-shadow: 2px #82c3a6;
   }
   #retratos:hover {
     transform: translate(20px,-5px);
+    box-shadow: 2px #82c3a6;
   }
   footer {
     text-align: center;
