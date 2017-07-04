@@ -4,6 +4,7 @@ body {
   animation: rebote 1s;
   text-decoration: none;
 }
+
 @-webkit-keyframes rebote {
   0% {
     margin-top: 150%;
@@ -15,8 +16,9 @@ body {
     margin-top: 0%;
   }
 }
+
 img {
-  box-shadow: 2px 2px #02010a;
+  box-shadow: 2px 1px #02010a;
 }
 
 @media (max-width: 420px) {
@@ -30,11 +32,17 @@ img {
     border-radius: 10px 10px 0 0;
   }
   #cabecera > h1 {
+    font-size: 1.5em;
+    margin: 2px;
+    padding: 2px;
     text-align: center;
     text-shadow: 2px 2px #02010a;
   }
   .menu-principal {
-    align-content: center;
+    padding: 5px;
+    background-color: white;
+    width: 98%;
+    text-align: center;
     display: flex;
     flex-direction: row;
   }
@@ -54,11 +62,12 @@ img {
     background-color: #82c3a6;
   }
   .principal > img {
-    width: 90%;
+    width: 98%;
     padding: 5px;
-    margin: 5px 0 0 10px;
+    margin: 0 auto;
   }
   #seccion {
+    text-align: center;
     background-color: #d5c75f;
     border: 1px;
   }
@@ -77,6 +86,35 @@ img {
     transform: translate(20px,-5px);
     box-shadow: 2px #82c3a6;
   }
+  #galeretrato {
+    text-align: center;
+    background-color: #d5c75f;
+    border: 1px;
+  }
+  #retrato1 {
+    width: 90%;
+    margin: 1px;
+  }
+  #retrato2 {
+    width: 90%;
+    margin: 1px;
+  }
+  #retrato3 {
+    width: 90%;
+    margin: 1px;
+  }
+  #retrato4 {
+    width: 90%;
+    margin: 1px;
+  }
+  #retrato5 {
+    width: 90%;
+    margin: 1px;
+  }
+  #retrato6 {
+    width: 90%;
+    margin: 1px;
+  }
   footer {
     text-align: center;
     padding: 5px;
@@ -84,15 +122,22 @@ img {
     border-radius: 0 0 10px 10px;
   }
   .redesociales {
+    text-align: center;
     display: flex;
     flex-direction: column;
   }
   .redesociales > .icoredes {
+    text-align: center;
+    width: 3%;
     padding: 5px;
     margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: row;
+    box-shadow: none;
+  }
+  #face, #ave, #vid {
+    margin: 3px;
   }
 }
 
@@ -172,6 +217,39 @@ img {
     transform: translate(20px,-5px);
     box-shadow: 2px #82c3a6;
   }
+  #galeretrato {
+    text-align: center;
+    background-color: #d5c75f;
+    border: 1px;
+  }
+  .filasuper .filainfer {
+    display: flex;
+    flex-direction: row;
+  }
+  #retrato1 {
+    width: 30%;
+    margin: 1px;
+  }
+  #retrato2 {
+    width: 30%;
+    margin: 1px;
+  }
+  #retrato3 {
+    width: 30%;
+    margin: 1px;
+  }
+  #retrato4 {
+    width: 30%;
+    margin: 1px;
+  }
+  #retrato5 {
+    width: 30%;
+    margin: 1px;
+  }
+  #retrato6 {
+    width: 30%;
+    margin: 1px;
+  }
   footer {
     text-align: center;
     font-size: 0.7em;
@@ -189,16 +267,22 @@ img {
     width: 25%;
   }
   .redesociales {
+    text-align: center;
     width: 25%;
     display: flex;
     flex-direction: column;
   }
   .redesociales > .icoredes {
-    padding: 5px;
+    text-align: center;
+    width: 3%;
     margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: row;
+    box-shadow: none;
+  }
+  #face, #ave, #vid {
+    margin: 3px;
   }
   .derechos {
     width: 25%;
