@@ -47,10 +47,16 @@ img {
     flex-direction: row;
   }
   li {
+    color: white !important;
     margin: 0 auto;
     text-align: center;
+    text-decoration: none !important;
     display: flex;
     flex-direction: row;
+  }
+  li > a {
+    color: white !important;
+    text-decoration: none !important;
   }
   .principal {
     margin: 0 auto;
@@ -84,6 +90,7 @@ img {
     border: 2px;
   }
   #galeretrato {
+    padding: 5px;
     text-align: center;
     background-color: #d5c75f;
     border: 1px;
@@ -185,11 +192,17 @@ img {
     flex-direction: row;
   }
   li {
+    color: white !important;
     font-size: 70%;
     margin-left: 8px;
     text-align: center;
+    text-decoration: none !important;
     display: flex;
     flex-direction: row;
+  }
+  li > a {
+    color: white !important;
+    text-decoration: none !important;
   }
   .principal {
     margin: 0 auto;
@@ -229,6 +242,7 @@ img {
     border: 2px;
   }
   #galeretrato {
+    padding: 5px;
     text-align: center;
     background-color: #d5c75f;
     border: 1px;
